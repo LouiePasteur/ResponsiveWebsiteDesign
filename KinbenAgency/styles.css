@@ -746,7 +746,6 @@ background-color: #5f0303;
 @media(max-width: 1650px){
     html{
         font-size: 57%;
-        overflow-x: hidden;
     }
     .video-wrapper{
         width: 85rem;
@@ -769,7 +768,6 @@ background-color: #5f0303;
 @media(max-width: 1400px){
     html{
      font-size: 45%;
-     overflow-x: hidden;
     }
     .contact-form{
         top: -5rem;
@@ -810,6 +808,7 @@ background-color: #5f0303;
 
     .swiper-container{
         width: 100%;
+        overflow: hidden;
     }
     .section-4{
         height: auto;
@@ -820,7 +819,6 @@ background-color: #5f0303;
 @media(max-width: 900px){
     html{
         font-size: 40%;
-        overflow-x: hidden;
     }
     .banner{
         top: 25%;
@@ -845,7 +843,6 @@ background-color: #5f0303;
 @media(max-width: 700px){
     html{
      font-size: 35%;   
-     overflow-x: hidden;
     }
     .section-2{
         height: 100vh;
@@ -863,10 +860,11 @@ background-color: #5f0303;
 }
 
 @media(max-width: 500px){
+
     html{
         font-size: 30%;
-        overflow-x:hidden;
     }
+  
 
     .banner-heading span{
         font-size: 4.5rem;
